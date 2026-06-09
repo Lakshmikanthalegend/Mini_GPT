@@ -1,0 +1,27 @@
+# Virtual environments
+myenv/
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# VS Code (keep settings.json optional; remove next line if you want to share it)
+# .vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Model / data artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
