@@ -58,3 +58,6 @@ num_layers = 2
 lr = 1e-3
 epochs = 1500
 
+#Now we will write git batch generation code. We will randomly select a starting index in the data and create a batch of input and target sequences.
+def get_batch(batch_size = 16):
+    
